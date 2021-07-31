@@ -24,7 +24,8 @@ int main()
     int dice;
     char choice;
     string playername;
-
+    
+    srand(time(0));
     cout << "\n\t\t*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*" << endl;
     cout << "\t\t#################                                    ######################" << endl;
     cout << "\t\t=================    CASINO NUMBER GUESSING GAME     ======================" << endl;
